@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 
 cg = CoinGeckoAPI()
-cs = 'bitcoin'
 
 chartCap = cg.get_coin_market_chart_by_id(id='cap', vs_currency='usd', days=1, interval='minutely')
 
